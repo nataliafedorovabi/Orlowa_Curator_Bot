@@ -22,24 +22,7 @@ LLM Отвечает за кураторов
 ```
 Bot_Questions/
 ├── 📄 chat_girls.xlsx                    # Исходные данные из Telegram
-├── 📄 result.json                        # Экспортированные данные в JSON
-├── 📄 result.csv                         # Конвертированные данные в CSV
-├── 📄 result_with_replies.csv            # Данные с добавленными ответами
-├── 📄 final_nutrition_for_bot.xlsx       # Финальный датасет для обучения
-├── 📄 llm_nutrition_classified.xlsx      # Данные, классифицированные LLM
-├── 📄 quality_nutrition_for_bot.xlsx     # Качественные данные (умная фильтрация)
-├── 📄 other_chat_data_final.xlsx         # Остальные данные для проверки
-└── 📁 scripts/
-    ├── 📄 export_chat.py                 # Экспорт из Telegram (Telethon)
-    ├── 📄 list_chats.py                  # Список всех чатов
-    ├── 📄 json_to_csv.py                 # Конвертация JSON в CSV
-    ├── 📄 add_reply_text.py              # Добавление текста ответов
-    ├── 📄 analyze_chat.py                # Анализ структуры данных
-    ├── 📄 filter_nutrition_data.py       # Базовая фильтрация по питанию
-    ├── 📄 smart_filter.py                # Умная фильтрация (исключение служебных)
-    ├── 📄 final_filter.py                # Финальная фильтрация (с полезными короткими)
-    ├── 📄 llm_classifier.py              # Семантическая классификация LLM
-    └── 📄 llm_question_answer_categorizer.py  # Категоризация Q&A пар
+
 ```
 
 ## 🛠️ Технологии
